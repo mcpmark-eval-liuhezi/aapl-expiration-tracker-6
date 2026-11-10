@@ -1,0 +1,11 @@
+name: AAPL Expiration Track
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo AAPL expiration tracker stub
+        run: echo "AAPL expiration tracker workflow stub - next weekly review: Expiry 2026-11-11"
